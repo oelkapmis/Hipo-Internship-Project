@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-3dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/form_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="120dp"
+            android:text="@string/form_title"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorText"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/form_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="40dp"
+            android:ems="10"
+            android:hint="@string/form_name"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorText"
+            android:backgroundTint="@color/colorText" />
+
+        <EditText
+            android:id="@+id/form_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:ems="10"
+            android:hint="@string/form_age"
+            android:inputType="numberDecimal"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorText"
+            android:backgroundTint="@color/colorText"/>
+
+        <EditText
+            android:id="@+id/form_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:ems="10"
+            android:hint="@string/form_location"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorText"
+            android:backgroundTint="@color/colorText"/>
+
+        <EditText
+            android:id="@+id/form_github"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:ems="10"
+            android:hint="@string/form_github"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorText"
+            android:backgroundTint="@color/colorText"/>
+
+        <EditText
+            android:id="@+id/form_position"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:ems="10"
+            android:hint="@string/form_position"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorText"
+            android:backgroundTint="@color/colorText"/>
+
+        <EditText
+            android:id="@+id/form_years"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:ems="10"
+            android:hint="@string/form_years"
+            android:inputType="numberDecimal"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorText"
+            android:backgroundTint="@color/colorText"/>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="130dp"
+            android:layout_marginTop="30dp"
+            android:width="700dp"
+            android:background="@color/colorButton"
+            android:text="@string/submitButton"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorText" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+
+    //MAIN ACTIVITY - MEMBERS LIST
+    <string name="app_name">Hipo</string>
+    <string name="main_textView">Members</string>
+    <string name="main_searchView">Search</string>
+    <string name="main_searchView_hint">Search Here...</string>
+    <string name="addButton">Add New Member</string>
+
+    //ADDING ACTIVITY
+    <string name="form_title">Input the following prompts:</string>
+    <string name="form_name">Name</string>
+    <string name="form_age">Age</string>
+    <string name="form_location">Location</string>
+    <string name="form_github">GitHub</string>
+    <string name="form_position">Position in Hipo</string>
+    <string name="form_years">Year(s) in Hipo</string>
+    <string name="submitButton">SUBMIT</string>
+</resources>
+
+
